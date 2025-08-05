@@ -16,7 +16,6 @@ const Footer = () => {
     { name: "الخدمات", href: "#services" },
     { name: "حولنا", href: "#about" },
     { name: "الفريق", href: "#team" },
-    { name: "التواصل", href: "#contact" },
   ];
 
   const services = [

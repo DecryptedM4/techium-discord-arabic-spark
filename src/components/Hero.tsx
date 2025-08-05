@@ -62,11 +62,15 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-scale-in" style={{ animationDelay: '0.8s' }}>
-            <Button size="lg" className="gradient-primary text-primary-foreground px-8 py-4 text-lg font-semibold hover-glow transition-smooth">
-              ابدأ الآن مجاناً
+            <Button size="lg" className="gradient-primary text-primary-foreground px-8 py-4 text-lg font-semibold hover-glow transition-smooth" asChild>
+              <a href="https://discord.gg/techium" target="_blank" rel="noopener noreferrer">
+                ابدأ الآن مجاناً
+              </a>
             </Button>
-            <Button variant="outline" size="lg" className="px-8 py-4 text-lg font-semibold hover-glow transition-smooth">
-              تصفح الخدمات
+            <Button variant="outline" size="lg" className="px-8 py-4 text-lg font-semibold hover-glow transition-smooth" asChild>
+              <a href="#services">
+                تصفح الخدمات
+              </a>
             </Button>
           </div>
 

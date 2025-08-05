@@ -19,7 +19,6 @@ const Header = () => {
     { name: "الخدمات", href: "#services" },
     { name: "حولنا", href: "#about" },
     { name: "الفريق", href: "#team" },
-    { name: "التواصل", href: "#contact" },
   ];
 
   return (
@@ -52,8 +51,10 @@ const Header = () => {
           </nav>
 
           {/* Discord Button */}
-          <Button variant="outline" className="hidden md:flex items-center space-x-2 space-x-reverse hover-glow">
-            <span>انضم للديسكورد</span>
+          <Button variant="outline" className="hidden md:flex items-center space-x-2 space-x-reverse hover-glow" asChild>
+            <a href="https://discord.gg/techium" target="_blank" rel="noopener noreferrer">
+              <span>انضم للديسكورد</span>
+            </a>
           </Button>
 
           {/* Mobile Menu Button */}
@@ -79,8 +80,10 @@ const Header = () => {
                   {item.name}
                 </a>
               ))}
-              <Button variant="outline" className="mt-4 hover-glow">
-                انضم للديسكورد
+              <Button variant="outline" className="mt-4 hover-glow" asChild>
+                <a href="https://discord.gg/techium" target="_blank" rel="noopener noreferrer">
+                  انضم للديسكورد
+                </a>
               </Button>
             </nav>
           </div>
