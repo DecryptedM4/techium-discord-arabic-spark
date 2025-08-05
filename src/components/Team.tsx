@@ -7,7 +7,7 @@ const Team = () => {
   const teamMembers = [
     {
       name: "marshaled",
-      role: "مؤسس ومطور رئيسي",
+      role: " مؤسس ومطور رئيسي",
       avatar: "/lovable-uploads/marshaled-avatar.png",
       status: "متاح",
       specialty: "تطوير البوتات وتحسين الأداء",
@@ -16,7 +16,7 @@ const Team = () => {
     },
     {
       name: "Silent",
-      role: "مختص الدعم التقني",
+      role: "خبير التطوير و الأنظمة",
       avatar: "/lovable-uploads/silent-avatar.png",
       status: "متاح",
       specialty: "حلول الأنظمة والأمان",
@@ -52,7 +52,7 @@ const Team = () => {
             </div>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gradient bg-[length:200%_auto] animate-[gradient-shift_3s_ease-in-out_infinite]">
-            فريقنا المتميز
+            فريقنا الرهيب
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             تعرف على الخبراء المتخصصين الذين يقدمون لك أفضل الخدمات التقنية عبر الديسكورد
@@ -138,8 +138,8 @@ const Team = () => {
                 className="group relative overflow-hidden gradient-primary text-primary-foreground border-0 px-8 py-4 text-lg font-semibold shadow-intense hover-glow transition-bounce" 
                 asChild
               >
-                <a href="https://discord.gg/techium" target="_blank" rel="noopener noreferrer">
-                  <span className="relative z-10">انضم لخادم الديسكورد للتواصل المباشر</span>
+                <a href="https://discord.gg/qbi" target="_blank" rel="noopener noreferrer">
+                  <span className="relative z-10">انضم لسيرفر الديسكورد للتواصل المباشر</span>
                   <div className="absolute inset-0 bg-gradient-to-r from-tech-secondary to-tech-accent opacity-0 group-hover:opacity-100 transition-smooth"></div>
                 </a>
               </Button>

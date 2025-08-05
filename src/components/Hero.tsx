@@ -47,7 +47,7 @@ const Hero = () => {
         {/* Enhanced Title */}
         <div className="space-y-6 mb-12">
           <h1 className="text-6xl md:text-8xl font-bold mb-6 animate-[fade-in-up_1s_ease-out] text-gradient bg-[length:200%_auto]" style={{ animationDelay: '0.2s' }}>
-            Techium
+            Qbit
           </h1>
           
           <div className="space-y-4 animate-[fade-in-up_1s_ease-out]" style={{ animationDelay: '0.4s' }}>
@@ -55,9 +55,9 @@ const Hero = () => {
               خدمات تقنية متطورة عبر الديسكورد
             </p>
             <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              نقدم لك تحسينات الحاسوب والدعم التقني المجاني، بالإضافة إلى مصادر البوتات المتخصصة
+              نقدم لك تحسينات للويندوز والدعم التقني المجاني، بالإضافة إلى سورسات البوتات الحصرية و المجانية
               <br />
-              <span className="text-tech-accent font-semibold">جودة عالية • سرعة في التنفيذ • دعم 24/7</span>
+              <span className="text-tech-accent font-semibold">نوفر جودة عالية مع سرعة في التنفيذ, ماتصدق ؟ جربنا</span>
             </p>
           </div>
         </div>
@@ -65,7 +65,7 @@ const Hero = () => {
         {/* Enhanced CTA */}
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-[scale-in_1s_ease-out]" style={{ animationDelay: '0.8s' }}>
           <Button size="lg" className="group relative overflow-hidden gradient-primary text-primary-foreground px-8 py-4 text-lg font-semibold hover-glow transition-bounce shadow-tech" asChild>
-            <a href="https://discord.gg/techium" target="_blank" rel="noopener noreferrer">
+            <a href="https://discord.gg/qbi" target="_blank" rel="noopener noreferrer">
               <span className="relative z-10">ابدأ الآن مجاناً</span>
             </a>
           </Button>

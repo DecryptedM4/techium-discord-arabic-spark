@@ -19,10 +19,10 @@ const Footer = () => {
   ];
 
   const services = [
-    { name: "تحسين الحاسوب", href: "#services" },
-    { name: "تطويقات ويندوز", href: "#services" },
+    { name: "تحسينات ويندوز", href: "#services" },
+    { name: "تويكات ويندوز ", href: "#services" },
     { name: "دعم تقني", href: "#services" },
-    { name: "بوتات ديسكورد", href: "#services" },
+    { name: "بوتات/سورسات دسكورد, href: "#services" },
   ];
 
   const socialLinks = [
@@ -35,7 +35,7 @@ const Footer = () => {
     {
       name: "البريد الإلكتروني",
       icon: <Mail className="w-5 h-5" />,
-      href: "mailto:info@techium.com",
+      href: "mailto:i4ig@outlook.com",
       color: "tech-secondary"
     },
   ];
@@ -57,7 +57,7 @@ const Footer = () => {
                 <h3 className="text-2xl font-bold text-gradient">تكنيوم</h3>
               </div>
               <p className="text-muted-foreground mb-6 max-w-md leading-relaxed">
-                نحن فريق تكنيوم المتخصص في تقديم خدمات تقنية احترافية عبر الديسكورد. نوفر تحسين وتطوير أداء الحواسيب والدعم التقني المجاني، بالإضافة إلى بيع مصادر البوتات المتقدمة والحلول التقنية المبتكرة.
+                نحن فريق كيو بت المتخصص في تقديم خدمات تقنية احترافية عبر الديسكورد. نوفر تحسين وتطوير أداء البيسيات والدعم التقني المجاني، بالإضافة إلى بيع سورسات البوتات والحلول التقنية المبتكرة.
               </p>
               
               {/* Key Features */}
@@ -140,7 +140,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-center md:text-right">
               <p className="text-muted-foreground text-sm">
-                © 2024 تكنيوم. جميع الحقوق محفوظة.
+                © 2026 Qbit. جميع الحقوق محفوظة.
               </p>
             </div>
             
@@ -157,12 +157,12 @@ const Footer = () => {
           <div className="bg-gradient-primary/10 rounded-2xl p-6 text-center border border-tech-primary/20">
             <h4 className="text-xl font-bold mb-2">جاهز للانضمام إلى مجتمعنا؟</h4>
             <p className="text-muted-foreground mb-4">
-              انضم إلى خادم الديسكورد الآن واستمتع بخدماتنا المجانية والحصرية
+              انضم إلى سيرفر الديسكورد الآن واستمتع بخدماتنا المجانية والحصرية
             </p>
             <Button className="gradient-primary hover-glow" asChild>
-              <a href="https://discord.gg/techium" target="_blank" rel="noopener noreferrer">
+              <a href="https://discord.gg/qbi" target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="w-4 h-4 ml-2" />
-                انضم لخادم تكنيوم
+                انضم لسيرفر Qbit
               </a>
             </Button>
           </div>

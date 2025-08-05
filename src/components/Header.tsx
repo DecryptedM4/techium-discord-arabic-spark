@@ -34,7 +34,7 @@ const Header = () => {
               alt="Techium Logo" 
               className="w-10 h-10 rounded-full animate-pulse-glow"
             />
-            <h1 className="text-2xl font-bold text-gradient">تكنيوم</h1>
+            <h1 className="text-2xl font-bold text-gradient">كيو بت</h1>
           </div>
 
           {/* Desktop Navigation */}
@@ -52,7 +52,7 @@ const Header = () => {
 
           {/* Discord Button */}
           <Button variant="outline" className="hidden md:flex items-center space-x-2 space-x-reverse hover-glow" asChild>
-            <a href="https://discord.gg/techium" target="_blank" rel="noopener noreferrer">
+            <a href="https://discord.gg/qbi" target="_blank" rel="noopener noreferrer">
               <span>انضم للديسكورد</span>
             </a>
           </Button>
@@ -81,7 +81,7 @@ const Header = () => {
                 </a>
               ))}
               <Button variant="outline" className="mt-4 hover-glow" asChild>
-                <a href="https://discord.gg/techium" target="_blank" rel="noopener noreferrer">
+                <a href="https://discord.gg/qbi" target="_blank" rel="noopener noreferrer">
                   انضم للديسكورد
                 </a>
               </Button>

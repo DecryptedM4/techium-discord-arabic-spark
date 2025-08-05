@@ -17,22 +17,22 @@ const Services = () => {
   const freeServices = [
     {
       icon: <Cpu className="w-8 h-8" />,
-      title: "تحسين الحاسوب",
-      description: "تحسين أداء الحاسوب وزيادة السرعة وإصلاح المشاكل",
+      title: "تحسين الويندوز",
+      description: "تحسين اداء الويندوز بدون اية مشاكل مستقبلية و بأحترافية تامة",
       features: ["تنظيف النظام", "تحسين الذاكرة", "إزالة الملفات المؤقتة", "تحديث التعريفات"],
       color: "tech-primary"
     },
     {
       icon: <Settings className="w-8 h-8" />,
-      title: "تطويقات ويندوز",
-      description: "تطبيق أحدث التحسينات والتعديلات على نظام ويندوز",
-      features: ["تحسين الخصوصية", "تسريع الإقلاع", "إزالة البرامج غير المرغوبة", "تحسين الألعاب"],
+      title: "تويكات للنظام",
+      description: "تطبيق احدث التويكات على الويندوز تساعد على زيادة عمر الجهاز وتحسين الأداء , بدون هراء المتاجر الاخرى",
+      features: ["تحسين الخصوصية", "تسريع التشغيل", "إزالة البرامج غير المرغوبة", "تحسين الألعاب"],
       color: "tech-secondary"
     },
     {
       icon: <Headphones className="w-8 h-8" />,
       title: "دعم تقني عن بُعد",
-      description: "مساعدة فورية لحل مشاكل الحاسوب عبر الديسكورد",
+      description: "مساعدة فورية لحل مشاكلك عبر الديسكورد",
       features: ["مساعدة فورية", "حل المشاكل التقنية", "إرشادات التثبيت", "استشارات مجانية"],
       color: "tech-accent"
     }
@@ -41,24 +41,24 @@ const Services = () => {
   const paidServices = [
     {
       icon: <Bot className="w-8 h-8" />,
-      title: "بوت ديسكورد متقدم",
-      description: "بوت ديسكورد كامل مع جميع الميزات المتقدمة",
-      price: "50$",
-      features: ["إدارة الخوادم", "نظام الترحيب", "أوامر متقدمة", "تخصيص كامل"],
+      title: "بوتات دسكورد متقدمة و بميزات حصرية",
+      description: "نقدم لكم بوتات حصرية وبمواصفات جبارة, ممكن ماتلاقيها بأي مكان",
+      price: "ابتدائًا من - 6 ريال ",
+      features: ["بوتات تكت", "بوتات حصرية", "بوتات سيستم", "بوتات ميوزك"],
       color: "tech-primary"
     },
     {
       icon: <Code2 className="w-8 h-8" />,
-      title: "مصدر بوت الموسيقى",
-      description: "بوت موسيقى عالي الجودة مع دعم جميع المنصات",
-      price: "30$",
-      features: ["تشغيل من يوتيوب", "قوائم التشغيل", "جودة عالية", "أوامر سهلة"],
+      title: "سورسات مجانية,
+      description: "نقدم لكم سورسات بوتات بشكل مجاني, فقط اثبات لجودة شغلنا",
+      price: "FREE",
+      features: ["و العديد من الهدايا قادمة خصيصًا للمتجر", "سورس بوت تحميل مقاطع التيك توك و الانستا", "سورس يوز نيم تشيكر", "سورس بوت ميوزك مجاني"],
       color: "tech-secondary"
     },
     {
       icon: <Shield className="w-8 h-8" />,
       title: "بوت الأمان والحماية",
-      description: "نظام حماية متكامل لخادم الديسكورد",
+      description: "نظام حماية متكامل لسيرفرات الديسكورد",
       price: "40$",
       features: ["مكافحة السبام", "نظام التحذيرات", "حماية من الروابط", "تسجيل الأحداث"],
       color: "tech-accent"
@@ -113,10 +113,10 @@ const Services = () => {
         {/* Paid Services Section */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gradient">
-            مصادر البوتات
+            سورسات البوتات
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            بوتات ديسكورد متقدمة جاهزة للاستخدام مع كود المصدر الكامل
+            بوتات ديسكورد متقدمة جاهزة للاستخدام مع السورس الكامل
           </p>
         </div>
 
@@ -150,7 +150,7 @@ const Services = () => {
                 </ul>
                 <Button className="w-full gradient-accent hover-glow">
                   <Download className="w-4 h-4 ml-2" />
-                  شراء المصدر
+                  شراء السورس
                 </Button>
               </CardContent>
             </Card>
