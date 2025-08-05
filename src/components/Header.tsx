@@ -18,6 +18,7 @@ const Header = () => {
     { name: "الرئيسية", href: "#home" },
     { name: "الخدمات", href: "#services" },
     { name: "حولنا", href: "#about" },
+    { name: "الفريق", href: "#team" },
     { name: "التواصل", href: "#contact" },
   ];
 
@@ -32,7 +33,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/3d6be7a9-3fb0-49ad-8c79-8e6f4452e12d.png" 
               alt="Techium Logo" 
-              className="w-10 h-10 animate-pulse-glow"
+              className="w-10 h-10 rounded-full animate-pulse-glow"
             />
             <h1 className="text-2xl font-bold text-gradient">تكنيوم</h1>
           </div>

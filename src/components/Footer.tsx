@@ -15,6 +15,7 @@ const Footer = () => {
     { name: "الرئيسية", href: "#home" },
     { name: "الخدمات", href: "#services" },
     { name: "حولنا", href: "#about" },
+    { name: "الفريق", href: "#team" },
     { name: "التواصل", href: "#contact" },
   ];
 
@@ -52,13 +53,12 @@ const Footer = () => {
                 <img 
                   src="/lovable-uploads/3d6be7a9-3fb0-49ad-8c79-8e6f4452e12d.png" 
                   alt="Techium Logo" 
-                  className="w-12 h-12 animate-pulse-glow"
+                  className="w-12 h-12 rounded-full animate-pulse-glow"
                 />
                 <h3 className="text-2xl font-bold text-gradient">تكنيوم</h3>
               </div>
               <p className="text-muted-foreground mb-6 max-w-md leading-relaxed">
-                نقدم خدمات تقنية متقدمة عبر الديسكورد، من تحسين الحاسوب والدعم التقني المجاني 
-                إلى بيع مصادر البوتات المتطورة.
+                نحن فريق تكنيوم المتخصص في تقديم خدمات تقنية احترافية عبر الديسكورد. نوفر تحسين وتطوير أداء الحواسيب والدعم التقني المجاني، بالإضافة إلى بيع مصادر البوتات المتقدمة والحلول التقنية المبتكرة.
               </p>
               
               {/* Key Features */}
@@ -156,13 +156,15 @@ const Footer = () => {
         {/* Discord CTA */}
         <div className="pb-8">
           <div className="bg-gradient-primary/10 rounded-2xl p-6 text-center border border-tech-primary/20">
-            <h4 className="text-xl font-bold mb-2">جاهز للبدء؟</h4>
+            <h4 className="text-xl font-bold mb-2">جاهز للانضمام إلى مجتمعنا؟</h4>
             <p className="text-muted-foreground mb-4">
-              انضم إلى خادم الديسكورد واحصل على خدمات مجانية فوراً
+              انضم إلى خادم الديسكورد الآن واستمتع بخدماتنا المجانية والحصرية
             </p>
-            <Button className="gradient-primary hover-glow">
-              <MessageCircle className="w-4 h-4 ml-2" />
-              انضم للديسكورد الآن
+            <Button className="gradient-primary hover-glow" asChild>
+              <a href="https://discord.gg/techium" target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="w-4 h-4 ml-2" />
+                انضم لخادم تكنيوم
+              </a>
             </Button>
           </div>
         </div>

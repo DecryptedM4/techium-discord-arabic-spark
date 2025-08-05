@@ -18,7 +18,7 @@ const Hero = () => {
             <img 
               src="/lovable-uploads/3d6be7a9-3fb0-49ad-8c79-8e6f4452e12d.png" 
               alt="Techium Logo" 
-              className="w-24 h-24 md:w-32 md:h-32 animate-pulse-glow"
+              className="w-24 h-24 md:w-32 md:h-32 rounded-full animate-pulse-glow shadow-tech"
             />
           </div>
 
@@ -28,12 +28,12 @@ const Hero = () => {
           </h1>
           
           <h2 className="text-2xl md:text-4xl font-semibold mb-8 text-foreground/90">
-            خدمات تقنية متقدمة عبر الديسكورد
+            حلول تقنية احترافية ومتقدمة عبر الديسكورد
           </h2>
 
           {/* Description */}
           <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
-            نقدم خدمات تحسين وتطوير الحاسوب والدعم التقني عن بُعد مجاناً، بالإضافة إلى بيع مصادر البوتات المتقدمة
+            نوفر خدمات تحسين وتطوير أداء الحواسيب والدعم التقني المتخصص مجاناً، مع توفير مصادر البوتات المتطورة والحلول التقنية المبتكرة لمجتمع الديسكورد العربي
           </p>
 
           {/* Service Icons */}
