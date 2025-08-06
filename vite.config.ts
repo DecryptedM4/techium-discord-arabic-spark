@@ -19,6 +19,10 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // Add this base configuration for GitHub Pages
-  base: process.env.NODE_ENV === 'production' ? '/techium-discord-arabic-spark/' : '/',
+  // GitHub Pages configuration
+  base: mode === 'production' ? '/techium-discord-arabic-spark/' : '/',
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+  },
 }));
