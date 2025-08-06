@@ -15,14 +15,14 @@ const About = () => {
   const stats = [
     {
       icon: <Users className="w-8 h-8" />,
-      number: "500+",
-      label: "عميل راضي",
+      number: "قريبًا",
+      label: "تعال بعدين!",
       color: "tech-primary"
     },
     {
       icon: <Award className="w-8 h-8" />,
-      number: "100+",
-      label: "مشروع مكتمل",
+      number: "5",
+      label: "مشاريع مكتملة",
       color: "tech-secondary"
     },
     {
@@ -33,7 +33,7 @@ const About = () => {
     },
     {
       icon: <MessageSquare className="w-8 h-8" />,
-      number: "95%",
+      number: "99%",
       label: "معدل الرضا",
       color: "tech-primary"
     }
@@ -67,7 +67,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gradient">
-            حول تكنيوم
+            حول كيو بت
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             نحن فريق من المطورين والتقنيين المتخصصين في تقديم أفضل الخدمات التقنية
@@ -85,8 +85,8 @@ const About = () => {
                 رؤيتنا تقديم أفضل الخدمات التقنية
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                تكنيوم هو مشروع تقني يهدف إلى تقديم خدمات تحسين الحاسوب والدعم التقني عن بُعد مجاناً 
-                لمجتمع الديسكورد العربي، بالإضافة إلى توفير مصادر بوتات الديسكورد المتقدمة.
+                كيو بت هو مشروع تقني يهدف إلى تقديم خدمات تحسين الأجهزة والدعم التقني عن بُعد مجاناً 
+                لمجتمع الديسكورد العربي، بالإضافة إلى توفير سورسات بوتات الديسكورد المتقدمة.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 نؤمن بأن التقنية يجب أن تكون في متناول الجميع، لذلك نقدم خدماتنا الأساسية مجاناً 
