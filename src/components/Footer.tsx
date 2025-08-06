@@ -50,11 +50,11 @@ const Footer = () => {
             <div className="lg:col-span-2">
               <div className="flex items-center space-x-3 space-x-reverse mb-6">
                 <img 
-                  src="./lovable-uploads/3d6be7a9-3fb0-49ad-8c79-8e6f4452e12d.png" 
+                  src="/lovable-uploads/3d6be7a9-3fb0-49ad-8c79-8e6f4452e12d.png" 
                   alt="Techium Logo" 
                   className="w-12 h-12 rounded-full animate-pulse-glow"
                 />
-                <h3 className="text-2xl font-bold text-gradient">كيو بت</h3>
+                <h3 className="text-2xl font-bold text-gradient">تكنيوم</h3>
               </div>
               <p className="text-muted-foreground mb-6 max-w-md leading-relaxed">
                 نحن فريق كيو بت المتخصص في تقديم خدمات تقنية احترافية عبر الديسكورد. نوفر تحسين وتطوير أداء البيسيات والدعم التقني المجاني، بالإضافة إلى بيع سورسات البوتات والحلول التقنية المبتكرة.
