@@ -20,5 +20,5 @@ export default defineConfig(({ mode }) => ({
     },
   },
   // Add this base configuration for GitHub Pages
-  base: '/techium-discord-arabic-spark/',
+  base: process.env.NODE_ENV === 'production' ? '/techium-discord-arabic-spark/' : '/',
 }));
