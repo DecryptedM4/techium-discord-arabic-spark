@@ -19,6 +19,4 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // Add this base configuration for GitHub Pages
-  base: '/techium-discord-arabic-spark/',
 }));
