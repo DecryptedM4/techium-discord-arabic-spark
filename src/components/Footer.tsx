@@ -22,7 +22,7 @@ const Footer = () => {
     { name: "تحسينات ويندوز", href: "#services" },
     { name: "تويكات ويندوز ", href: "#services" },
     { name: "دعم تقني", href: "#services" },
-    { name: "بوتات/سورسات دسكورد, href: "#services" },
+    { name: "بوتات/سورسات دسكورد", href: "#services" },
   ];
 
   const socialLinks = [
